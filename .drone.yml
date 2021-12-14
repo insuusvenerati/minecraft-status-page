@@ -2,6 +2,11 @@ kind: pipeline
 name: default
 type: docker
 
+trigger:
+  event:
+    exclude:
+      - promote
+
 steps:
   - name: Install and Build
     image: node:16-alpine3.14

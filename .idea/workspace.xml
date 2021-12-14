@@ -9,7 +9,9 @@
       <change afterPath="$PROJECT_DIR$/../minecraft-status-page-remix/app/status.server.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../minecraft-status-page-remix/material-react.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../minecraft-status-page-remix/styles/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,7 @@
       <workItem from="1639324415797" duration="27244000" />
       <workItem from="1639434204921" duration="2331000" />
       <workItem from="1639447624954" duration="6029000" />
-      <workItem from="1639488378505" duration="8418000" />
+      <workItem from="1639488378505" duration="8588000" />
     </task>
     <servers />
   </component>

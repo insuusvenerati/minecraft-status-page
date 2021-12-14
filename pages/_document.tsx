@@ -8,6 +8,10 @@ class MyDocument extends Document {
           <meta name="application-name" content="Minecraft Status Page" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
+            name="description"
+            content="A Status page for your Minecraft servers"
+          />
+          <meta
             name="apple-mobile-web-app-status-bar-style"
             content="default"
           />
