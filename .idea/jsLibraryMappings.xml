@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{font-awesome}" />
+    <excludedPredefinedLibrary name="material-tailwind-dashboard-react-main/node_modules" />
+    <excludedPredefinedLibrary name="minecraft-status-page-remix/node_modules" />
+  </component>
+</project>

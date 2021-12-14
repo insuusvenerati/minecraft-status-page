@@ -1,0 +1,10 @@
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: Install and Build
+    image: node:16-alpine3.14
+    commands:
+      - yarn install
+      - yarn build

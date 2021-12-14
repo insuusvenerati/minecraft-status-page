@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/pages/material-tailwind-dashboard-react-main/material-tailwind-dashboard-react-main.iml" filepath="$USER_HOME$/Downloads/pages/material-tailwind-dashboard-react-main/material-tailwind-dashboard-react-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/minecraft-status-page.iml" filepath="$PROJECT_DIR$/.idea/minecraft-status-page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../minecraft-status-page-remix/minecraft-status-page-remix.iml" filepath="$PROJECT_DIR$/../minecraft-status-page-remix/minecraft-status-page-remix.iml" />
+    </modules>
+  </component>
+</project>
