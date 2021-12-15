@@ -27,10 +27,12 @@ export type Status = {
 
 export function TableCard() {
   const { data, error } = useSWR<Status[]>("/api/status", fetcher, {
-    refreshInterval: 5000,
+    refreshInterval: 30000,
   });
 
-  // console.log(data)
+  if (process.env.NODE_ENV === "development" && data) {
+    console.log(data);
+  }
 
   return (
     <Card>

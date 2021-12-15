@@ -9,9 +9,23 @@
       <change afterPath="$PROJECT_DIR$/../minecraft-status-page-remix/app/status.server.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../minecraft-status-page-remix/material-react.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../minecraft-status-page-remix/styles/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/minecraft_dirt.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/addServer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/getServers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/crafatar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Server.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Server.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TableCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/status.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/status.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +57,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="22BwhtKl5H4p9fYHDO1EqeBW3LG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,27 +71,30 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="$USER_HOME$/.volta/tools/shared/pnpm" />
+    <property name="nodejs_package_manager_path" value="$USER_HOME$/.volta/tools/image/yarn/1.22.17" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Prisma" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/routes" />
-      <recent name="$PROJECT_DIR$/app/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/styles" />
@@ -83,7 +103,7 @@
       <recent name="$PROJECT_DIR$/app/styles" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -119,7 +139,6 @@
         <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
-      <package-manager value="$USER_HOME$/.volta/tools/shared/pnpm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -145,16 +164,16 @@
     </configuration>
     <list>
       <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.Docker Image" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.pack" />
       <item itemvalue="npm.start" />
-      <item itemvalue="Docker.Docker Image" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="npm.pack" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -170,7 +189,10 @@
       <workItem from="1639324415797" duration="27244000" />
       <workItem from="1639434204921" duration="2331000" />
       <workItem from="1639447624954" duration="6029000" />
-      <workItem from="1639488378505" duration="8588000" />
+      <workItem from="1639488378505" duration="10130000" />
+      <workItem from="1639519328641" duration="7758000" />
+      <workItem from="1639578522377" duration="9511000" />
+      <workItem from="1639599126902" duration="7082000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,6 @@ import {
   NavbarWrapper,
 } from "@material-tailwind/react";
 import { TableCard } from "../components/TableCard";
-import { Footer } from "../components/Footer";
 import Head from "next/head";
 
 export default function Home() {
@@ -41,7 +40,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
