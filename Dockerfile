@@ -11,7 +11,8 @@ FROM node:16-alpine3.14 AS builder
 WORKDIR /app
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
-RUN yarn build && yarn install --production --ignore-scripts --prefer-offline
+RUN yarn build && yarn install --production --ignore-scripts --prefer-offline \
+    && yarn prisma generate
 
 # Production image, copy all the files and run next
 FROM node:16-alpine3.14 AS runner
