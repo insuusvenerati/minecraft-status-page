@@ -27,8 +27,15 @@ spec:
       serviceAccountName: {{ include "chart.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      volumes:
+        - name: database
+          persistentVolumeClaim:
+            claimName: {{ .Values.persistence.persistentVolumeClaimName }}
       containers:
         - name: {{ .Chart.Name }}
+          volumeMounts:
+            - mountPath: /app/prisma/
+              name: database
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
