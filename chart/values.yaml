@@ -8,7 +8,10 @@ image:
   repository: stiforr/minecraft-status-page
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
+
+persistence:
+  persistentVolumeClaimName: "minecraft-status-page-data"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -28,13 +31,13 @@ podAnnotations: {}
 podSecurityContext: {}
   # fsGroup: 2000
 
-securityContext: {}
-  # capabilities:
-  #   drop:
-  #   - ALL
-  # readOnlyRootFilesystem: true
-  # runAsNonRoot: true
-  # runAsUser: 1000
+securityContext:
+   capabilities:
+     drop:
+     - ALL
+   readOnlyRootFilesystem: true
+   runAsNonRoot: true
+   runAsUser: 1001
 
 service:
   type: ClusterIP
