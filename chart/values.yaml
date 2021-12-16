@@ -12,6 +12,8 @@ image:
 
 persistence:
   persistentVolumeClaimName: "minecraft-status-page-data"
+  storageClass: ""
+  storageSize: "1Gi"
 
 imagePullSecrets: []
 nameOverride: ""
