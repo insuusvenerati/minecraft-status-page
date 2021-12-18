@@ -12,8 +12,8 @@ image:
 
 persistence:
   persistentVolumeClaimName: "minecraft-status-page-data"
-  storageClass: ""
-  storageSize: "1Gi"
+  storageClass: "nfs-home-lab"
+  storageSize: "5Gi"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -33,13 +33,13 @@ podAnnotations: {}
 podSecurityContext: {}
   # fsGroup: 2000
 
-securityContext:
-   capabilities:
-     drop:
-     - ALL
-   readOnlyRootFilesystem: true
-   runAsNonRoot: true
-   runAsUser: 1001
+securityContext: {}
+#   capabilities:
+#     drop:
+#     - ALL
+#   readOnlyRootFilesystem: true
+#   runAsNonRoot: true
+#   runAsUser: 1001
 
 service:
   type: ClusterIP
