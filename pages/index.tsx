@@ -1,17 +1,23 @@
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContainer,
-  NavbarWrapper,
-} from "@material-tailwind/react";
+import Navbar from "@material-tailwind/react/Navbar";
+import NavbarBrand from "@material-tailwind/react/NavbarBrand";
+import NavbarContainer from "@material-tailwind/react/NavbarContainer";
+import NavbarWrapper from "@material-tailwind/react/NavbarWrapper";
 import { TableCard } from "../components/TableCard";
 import Head from "next/head";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Minecraft Server Status [WIP] </title>
+        <link
+          rel="preload"
+          href="/api/status"
+          as="fetch"
+          crossOrigin="anonymous"
+        />
         <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
@@ -24,6 +30,7 @@ export default function Home() {
           crossOrigin="anonymous"
         />
       </Head>
+      <ToastContainer limit={1} />
       <Navbar navbar>
         <NavbarContainer>
           <NavbarWrapper>

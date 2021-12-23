@@ -3,6 +3,7 @@ import CardHeader from "@material-tailwind/react/CardHeader";
 import CardBody from "@material-tailwind/react/CardBody";
 import { Server } from "./Server";
 import { fetcher } from "../util/fetcher";
+import { toast } from "react-toastify";
 import useSWR from "swr";
 
 export type Status = {
@@ -27,11 +28,19 @@ export type Status = {
 
 export function TableCard() {
   const { data, error } = useSWR<Status[]>("/api/status", fetcher, {
-    refreshInterval: 30000,
+    refreshInterval: () => {
+      if (error) return 30 * 1000;
+      return 10 * 1000;
+    },
   });
 
+  if (error) {
+    toast.error(error.message, { position: "bottom-right" });
+  }
+
   if (process.env.NODE_ENV === "development" && data) {
-    console.log(data);
+    console.log("Data", data);
+    console.log(error);
   }
 
   return (

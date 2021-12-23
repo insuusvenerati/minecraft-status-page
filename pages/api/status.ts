@@ -1,5 +1,6 @@
 import { status } from "minecraft-server-util";
 import { prisma } from "../../prisma";
+import { NextApiRequest, NextApiResponse } from "next";
 
 // const servers = [
 //   {
@@ -34,7 +35,10 @@ async function getAllServers() {
   return servers;
 }
 
-export default async function handler(req, res) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   const servers = await getAllServers();
 
   const data = await Promise.all(
