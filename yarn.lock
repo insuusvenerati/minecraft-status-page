@@ -3524,11 +3524,6 @@ etag@1.8.1:
   resolved "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-eventemitter2@^6.4.5:
-  version "6.4.5"
-  resolved "https://registry.npmjs.org/eventemitter2/-/eventemitter2-6.4.5.tgz#97380f758ae24ac15df8353e0cc27f8b95644655"
-  integrity sha512-bXE7Dyc1i6oQElDG0jMRZJrRAn9QR2xyyFGmBdZleNmyQX0FqGYmhZIrIrpPfm/w//LTo4tVQGOGQcGCb5q9uw==
-
 events@3.3.0, events@^3.0.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
@@ -5079,18 +5074,17 @@ minecraft-motd-util@1.1.8:
   resolved "https://registry.yarnpkg.com/minecraft-motd-util/-/minecraft-motd-util-1.1.8.tgz#8771bc618175ed7b04047320c9fb820bab77aa3f"
   integrity sha512-aZG2R7XgbaeyRKkMUbkFx9cffqqC9o/VcfFDDqNiPzorGPPg1EdHvkVj/bL0rBRc0x+crv7Ejk/Hv3pqPV8Sow==
 
-minecraft-motd-util@^1.1.5:
-  version "1.1.6"
-  resolved "https://registry.npmjs.org/minecraft-motd-util/-/minecraft-motd-util-1.1.6.tgz#12a2ce11e50efacfe6779c94ec4aae7133206593"
-  integrity sha512-o20DYDkjphW8wXv9ufvG0Z9sQeXYEAWYHSXAY1qwcFScCauFDgGyY4mPHGN+Wuuw970acYK9fkT9slxH+GFJWQ==
+minecraft-motd-util@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/minecraft-motd-util/-/minecraft-motd-util-1.1.9.tgz#60104dff19daad164be9ecf5e781d5bb0e4c4b24"
+  integrity sha512-ehHshBL5FCIyIfrJ7bumBG/+fOOY/jqKDTtnSOeIZn758EBanP1SlyVuV0tzrgOOBYyd2zdd0a5t4nckEDasQA==
 
-minecraft-server-util@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/minecraft-server-util/-/minecraft-server-util-5.1.2.tgz#3ec2fa4a69df14e8c0eda68279473c35a711065e"
-  integrity sha512-r8Tdg42aCsbCcuYK7sGIn7SKY/98YnOAbXtfE+tgmoy+APWvFT2YzXTUWvbmYCAGwlAy0tILf92I4ZJ1x1qKyw==
+minecraft-server-util@5.2.8:
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/minecraft-server-util/-/minecraft-server-util-5.2.8.tgz#8f0fe4c88c9b6448ec4244bf4b1db6eaec1a57a3"
+  integrity sha512-ASPgeoFPbehF33cPBjJn6hfve017Vlia673qQwBegDPYhlt2rdegjJUFi0c+6VraR28wzR9P8msjD7J114583A==
   dependencies:
-    eventemitter2 "^6.4.5"
-    minecraft-motd-util "^1.1.5"
+    minecraft-motd-util "^1.1.9"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
