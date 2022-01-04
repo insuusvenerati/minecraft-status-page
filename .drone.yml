@@ -34,6 +34,8 @@ steps:
     environment:
       BUILDKIT_INLINE_CACHE: 1
       DOCKER_BUILDKIT: 1
+      DATABASE_URL:
+        from_secret: DATABASE_URL
     settings:
       cache_from: stiforr/minecraft-status-page
       username:
