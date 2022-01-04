@@ -8,8 +8,42 @@ trigger:
       - promote
 
 steps:
-  - name: Install and Build
+  - name: Install
     image: node:16-alpine3.14
     commands:
       - yarn install
+
+  - name: Build
+    image: node:16-alpine3.14
+    commands:
       - yarn build
+
+---
+kind: pipeline
+name: publish
+type: docker
+
+trigger:
+  event:
+    include:
+      - tag
+
+steps:
+  - name: docker
+    image: plugins/docker
+    environment:
+      BUILDKIT_INLINE_CACHE: 1
+      DOCKER_BUILDKIT: 1
+    settings:
+      cache_from: stiforr/minecraft-status-page
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
+      repo: stiforr/minecraft-status-page
+      build_args_from_env:
+        - BUILDKIT_INLINE_CACHE
+        - DATABASE_URL
+      auto_tag: true
+      tags:
+        - latest
