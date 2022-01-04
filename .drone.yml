@@ -17,6 +17,28 @@ steps:
     image: node:16-alpine3.14
     commands:
       - yarn build
+    depends_on:
+      - Install
+
+  - name: semantic-release
+    image: stiforr/ci-tools:1
+    pull: 'always'
+    commands:
+      - yarn semantic-release
+    when:
+      branch:
+        - main
+        - develop
+      event:
+        exclude:
+          - pull_request
+          - tag
+    environment:
+      GH_TOKEN:
+        from_secret: GH_TOKEN
+    depends_on:
+      - Install
+      - Build
 
 ---
 kind: pipeline
