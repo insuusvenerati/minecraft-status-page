@@ -4,6 +4,7 @@ FROM node:16-alpine3.14 AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json yarn.lock ./
+COPY ./prisma ./prisma
 RUN yarn install --frozen-lockfile
 
 # Rebuild the source code only when needed
@@ -12,30 +13,33 @@ WORKDIR /app
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 
-ENV DATABASE_URL=file:./dev.db
+ENV DATABASE_URL=postgresql://postgres:Oldeenglish750@db.iwtdxmoctontlerfspyc.supabase.co:5432/postgres
 
-RUN yarn build && yarn install --production --ignore-scripts --prefer-offline \
-    && yarn prisma generate
+RUN yarn build && yarn install --prefer-offline
 
 # Production image, copy all the files and run next
 FROM node:16-alpine3.14 AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
+ARG DATABASE_URL
+ENV DATABASE_URL=${DATABASE_URL}
 
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
 
 # You only need to copy next.config.js if you are NOT using the default configuration
-# COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/prisma.ts ./
 
 # Automatically leverage output traces to reduce image size 
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-COPY --from=builder --chown=nextjs:nodejs /app/prisma ./prisma
 
 USER nextjs
 
