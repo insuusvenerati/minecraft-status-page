@@ -35,7 +35,12 @@ export function TableCard() {
   });
 
   if (error) {
-    toast.error(error.message, { position: "bottom-right" });
+    toast.error(error.message, { position: "bottom-right", toastId: "error" });
+  } else {
+    toast("Successfully fetched servers!", {
+      position: "bottom-right",
+      toastId: "success",
+    });
   }
 
   if (process.env.NODE_ENV === "development" && data) {
