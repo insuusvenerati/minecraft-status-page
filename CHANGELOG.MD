@@ -1,3 +1,10 @@
+## [0.3.1-develop.2](https://github.com/insuusvenerati/minecraft-status-page/compare/0.3.1-develop.1...0.3.1-develop.2) (2022-01-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency minecraft-motd-util to v1.1.9 ([855fe37](https://github.com/insuusvenerati/minecraft-status-page/commit/855fe37d17b8a85560333ba78ecef0339cb21759))
+
 ## [0.3.1-develop.1](https://github.com/insuusvenerati/minecraft-status-page/compare/0.3.0...0.3.1-develop.1) (2022-01-04)
 
 
