@@ -3,7 +3,7 @@
   "author": "Sean Norwood <norwood.sean@gmail.com>",
   "description": "A Status page for your Minecraft servers",
   "license": "MIT",
-  "version": "0.3.1-develop.2",
+  "version": "0.3.1-develop.3",
   "repository": "https://github.com/insuusvenerati/minecraft-status-page",
   "private": true,
   "scripts": {

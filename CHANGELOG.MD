@@ -1,3 +1,10 @@
+## [0.3.1-develop.3](https://github.com/insuusvenerati/minecraft-status-page/compare/0.3.1-develop.2...0.3.1-develop.3) (2022-01-05)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([443b1d6](https://github.com/insuusvenerati/minecraft-status-page/commit/443b1d65a6753aea3449ad69c54de4cadf116807))
+
 ## [0.3.1-develop.2](https://github.com/insuusvenerati/minecraft-status-page/compare/0.3.1-develop.1...0.3.1-develop.2) (2022-01-05)
 
 
