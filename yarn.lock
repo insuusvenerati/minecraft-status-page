@@ -1086,9 +1086,9 @@
   resolved "https://registry.npmjs.org/@isaacs/string-locale-compare/-/string-locale-compare-1.1.0.tgz#291c227e93fd407a96ecd59879a35809120e432b"
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
-"@kubernetes/client-node@^0.16.1":
+"@kubernetes/client-node@0.16.1":
   version "0.16.1"
-  resolved "https://registry.npmjs.org/@kubernetes/client-node/-/client-node-0.16.1.tgz#c78ef667579777c1a532983922807e228dbc9b90"
+  resolved "https://registry.yarnpkg.com/@kubernetes/client-node/-/client-node-0.16.1.tgz#c78ef667579777c1a532983922807e228dbc9b90"
   integrity sha512-/Ah+3gFSjXFeqDMGGTyYBKug44Eu2D2qowKLdiZqxCkHdSNgy+CNk6FU1Vy80WrTvGkF/CZr4az6O5AopAiJEw==
   dependencies:
     "@types/js-yaml" "^4.0.1"
@@ -1561,9 +1561,9 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
-"@prisma/client@^3.6.0":
+"@prisma/client@3.6.0":
   version "3.6.0"
-  resolved "https://registry.npmjs.org/@prisma/client/-/client-3.6.0.tgz#68a60cd4c73a369b11f72e173e86fd6789939293"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.6.0.tgz#68a60cd4c73a369b11f72e173e86fd6789939293"
   integrity sha512-ycSGY9EZGROtje0iCNsgC5Zqi/ttX2sO7BNMYaLsUMiTlf3F69ZPH+08pRo0hrDfkZzyimXYqeXJlaoYDH1w7A==
   dependencies:
     "@prisma/engines-version" "3.6.0-24.dc520b92b1ebb2d28dc3161f9f82e875bd35d727"
@@ -1620,9 +1620,9 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
   integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
-"@semantic-release/changelog@^6.0.1":
+"@semantic-release/changelog@6.0.1":
   version "6.0.1"
-  resolved "https://registry.npmjs.org/@semantic-release/changelog/-/changelog-6.0.1.tgz#8dd0334fd8c7d50cda747d2591e4f18f816b3c9c"
+  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-6.0.1.tgz#8dd0334fd8c7d50cda747d2591e4f18f816b3c9c"
   integrity sha512-FT+tAGdWHr0RCM3EpWegWnvXJ05LQtBkQUaQRIExONoXjVjLuOILNm4DEKNaV+GAQyJjbLRVs57ti//GypH6PA==
   dependencies:
     "@semantic-release/error" "^3.0.0"
@@ -1630,9 +1630,9 @@
     fs-extra "^9.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@^9.0.2":
+"@semantic-release/commit-analyzer@9.0.2", "@semantic-release/commit-analyzer@^9.0.2":
   version "9.0.2"
-  resolved "https://registry.npmjs.org/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.2.tgz#a78e54f9834193b55f1073fa6258eecc9a545e03"
+  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.2.tgz#a78e54f9834193b55f1073fa6258eecc9a545e03"
   integrity sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==
   dependencies:
     conventional-changelog-angular "^5.0.0"
@@ -1653,9 +1653,9 @@
   resolved "https://registry.npmjs.org/@semantic-release/error/-/error-3.0.0.tgz#30a3b97bbb5844d695eb22f9d3aa40f6a92770c2"
   integrity sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==
 
-"@semantic-release/git@^10.0.1":
+"@semantic-release/git@10.0.1":
   version "10.0.1"
-  resolved "https://registry.npmjs.org/@semantic-release/git/-/git-10.0.1.tgz#c646e55d67fae623875bf3a06a634dd434904498"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.1.tgz#c646e55d67fae623875bf3a06a634dd434904498"
   integrity sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==
   dependencies:
     "@semantic-release/error" "^3.0.0"
@@ -1667,9 +1667,9 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@^8.0.0", "@semantic-release/github@^8.0.2":
+"@semantic-release/github@8.0.2", "@semantic-release/github@^8.0.0":
   version "8.0.2"
-  resolved "https://registry.npmjs.org/@semantic-release/github/-/github-8.0.2.tgz#80114a41f6ec8ab6c0d38a436b48ff3f2223ab16"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.2.tgz#80114a41f6ec8ab6c0d38a436b48ff3f2223ab16"
   integrity sha512-wIbfhOeuxlYzMTjtSAa2xgr54n7ZuPAS2gadyTWBpUt2PNAPgla7A6XxCXJnaKPgfVF0iFfSk3B+KlVKk6ByVg==
   dependencies:
     "@octokit/rest" "^18.0.0"
@@ -1689,9 +1689,9 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/npm@^8.0.0", "@semantic-release/npm@^8.0.3":
+"@semantic-release/npm@8.0.3", "@semantic-release/npm@^8.0.0":
   version "8.0.3"
-  resolved "https://registry.npmjs.org/@semantic-release/npm/-/npm-8.0.3.tgz#69378ce529bbd263aa8fc899b2d0f874114e0302"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-8.0.3.tgz#69378ce529bbd263aa8fc899b2d0f874114e0302"
   integrity sha512-Qbg7x/O1t3sJqsv2+U0AL4Utgi/ymlCiUdt67Ftz9HL9N8aDML4t2tE0T9MBaYdqwD976hz57DqHHXKVppUBoA==
   dependencies:
     "@semantic-release/error" "^3.0.0"
@@ -1708,9 +1708,9 @@
     semver "^7.1.2"
     tempy "^1.0.0"
 
-"@semantic-release/release-notes-generator@^10.0.0", "@semantic-release/release-notes-generator@^10.0.3":
+"@semantic-release/release-notes-generator@10.0.3", "@semantic-release/release-notes-generator@^10.0.0":
   version "10.0.3"
-  resolved "https://registry.npmjs.org/@semantic-release/release-notes-generator/-/release-notes-generator-10.0.3.tgz#85f7ca78bfa6b01fb5fda0ac48112855d69171dc"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-10.0.3.tgz#85f7ca78bfa6b01fb5fda0ac48112855d69171dc"
   integrity sha512-k4x4VhIKneOWoBGHkx0qZogNjCldLPRiAjnIpMnlUh6PtaWXp/T+C9U7/TaNDDtgDa5HMbHl4WlREdxHio6/3w==
   dependencies:
     conventional-changelog-angular "^5.0.0"
@@ -1758,9 +1758,9 @@
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.29.1":
+"@supabase/supabase-js@1.29.1":
   version "1.29.1"
-  resolved "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-1.29.1.tgz#5cccf0da1caf8320fbeff09f5ee893f66bdcb450"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.29.1.tgz#5cccf0da1caf8320fbeff09f5ee893f66bdcb450"
   integrity sha512-5UPgB93XCzALTpbuwvEGH+Y7i3YBY3y3y96uNnzAWYerGWlqx2kIVmV++GAiEPp/tp+QRsv103AoLKiP3dP2DA==
   dependencies:
     "@supabase/gotrue-js" "^1.21.7"
@@ -3518,9 +3518,9 @@ dot-prop@^5.1.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@^10.0.0:
+dotenv@10.0.0:
   version "10.0.0"
-  resolved "https://registry.npmjs.org/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
 duplexer2@~0.1.0:
@@ -3945,11 +3945,6 @@ etag@1.8.1:
   version "1.8.1"
   resolved "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
-
-eventemitter2@^6.4.5:
-  version "6.4.5"
-  resolved "https://registry.npmjs.org/eventemitter2/-/eventemitter2-6.4.5.tgz#97380f758ae24ac15df8353e0cc27f8b95644655"
-  integrity sha512-bXE7Dyc1i6oQElDG0jMRZJrRAn9QR2xyyFGmBdZleNmyQX0FqGYmhZIrIrpPfm/w//LTo4tVQGOGQcGCb5q9uw==
 
 events@3.3.0, events@^3.0.0:
   version "3.3.0"
@@ -5772,23 +5767,17 @@ min-indent@^1.0.0:
   resolved "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
-minecraft-motd-util@1.1.8:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/minecraft-motd-util/-/minecraft-motd-util-1.1.8.tgz#8771bc618175ed7b04047320c9fb820bab77aa3f"
-  integrity sha512-aZG2R7XgbaeyRKkMUbkFx9cffqqC9o/VcfFDDqNiPzorGPPg1EdHvkVj/bL0rBRc0x+crv7Ejk/Hv3pqPV8Sow==
+minecraft-motd-util@1.1.9, minecraft-motd-util@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/minecraft-motd-util/-/minecraft-motd-util-1.1.9.tgz#60104dff19daad164be9ecf5e781d5bb0e4c4b24"
+  integrity sha512-ehHshBL5FCIyIfrJ7bumBG/+fOOY/jqKDTtnSOeIZn758EBanP1SlyVuV0tzrgOOBYyd2zdd0a5t4nckEDasQA==
 
-minecraft-motd-util@^1.1.5:
-  version "1.1.6"
-  resolved "https://registry.npmjs.org/minecraft-motd-util/-/minecraft-motd-util-1.1.6.tgz#12a2ce11e50efacfe6779c94ec4aae7133206593"
-  integrity sha512-o20DYDkjphW8wXv9ufvG0Z9sQeXYEAWYHSXAY1qwcFScCauFDgGyY4mPHGN+Wuuw970acYK9fkT9slxH+GFJWQ==
-
-minecraft-server-util@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/minecraft-server-util/-/minecraft-server-util-5.1.2.tgz#3ec2fa4a69df14e8c0eda68279473c35a711065e"
-  integrity sha512-r8Tdg42aCsbCcuYK7sGIn7SKY/98YnOAbXtfE+tgmoy+APWvFT2YzXTUWvbmYCAGwlAy0tILf92I4ZJ1x1qKyw==
+minecraft-server-util@5.2.8:
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/minecraft-server-util/-/minecraft-server-util-5.2.8.tgz#8f0fe4c88c9b6448ec4244bf4b1db6eaec1a57a3"
+  integrity sha512-ASPgeoFPbehF33cPBjJn6hfve017Vlia673qQwBegDPYhlt2rdegjJUFi0c+6VraR28wzR9P8msjD7J114583A==
   dependencies:
-    eventemitter2 "^6.4.5"
-    minecraft-motd-util "^1.1.5"
+    minecraft-motd-util "^1.1.9"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -6964,9 +6953,9 @@ pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
   resolved "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
   integrity sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==
 
-prisma@^3.6.0:
+prisma@3.6.0:
   version "3.6.0"
-  resolved "https://registry.npmjs.org/prisma/-/prisma-3.6.0.tgz#99532abc02e045e58c6133a19771bdeb28cecdbe"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.6.0.tgz#99532abc02e045e58c6133a19771bdeb28cecdbe"
   integrity sha512-6SqgHS/5Rq6HtHjsWsTxlj+ySamGyCLBUQfotc2lStOjPv52IQuDVpp58GieNqc9VnfuFyHUvTZw7aQB+G2fvQ==
   dependencies:
     "@prisma/engines" "3.6.0-24.dc520b92b1ebb2d28dc3161f9f82e875bd35d727"
@@ -7212,9 +7201,9 @@ react-syntax-highlighter@^15.4.3:
     prismjs "^1.25.0"
     refractor "^3.2.0"
 
-react-toastify@^8.1.0:
+react-toastify@8.1.0:
   version "8.1.0"
-  resolved "https://registry.npmjs.org/react-toastify/-/react-toastify-8.1.0.tgz#acaca4e8c4415c8474562dd84a14e6f390ed7f17"
+  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-8.1.0.tgz#acaca4e8c4415c8474562dd84a14e6f390ed7f17"
   integrity sha512-M+Q3rTmEw/53Csr7NsV/YnldJe4c7uERcY7Tma9mvLU98QT2VhIkKwjBzzxZkJRk/oBKyUAtkyMjMgO00hx6gQ==
   dependencies:
     clsx "^1.1.1"
@@ -7623,9 +7612,9 @@ schema-utils@^3.0.0, schema-utils@^3.1.1:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
-semantic-release-helm@^2.1.0:
+semantic-release-helm@2.1.0:
   version "2.1.0"
-  resolved "https://registry.npmjs.org/semantic-release-helm/-/semantic-release-helm-2.1.0.tgz#689e60d481e2bfa24dc11251a1b0323a32c7ec42"
+  resolved "https://registry.yarnpkg.com/semantic-release-helm/-/semantic-release-helm-2.1.0.tgz#689e60d481e2bfa24dc11251a1b0323a32c7ec42"
   integrity sha512-BvuxTXcnukdozfLXee2IXdHG1evNoB5cFAZ9xG6cnO6I8PPEkcYfeav7NGPCh2qDt8qP2rHPD0M9EuKbZ/SrNQ==
   dependencies:
     aggregate-error "^3.1.0"
@@ -7634,9 +7623,9 @@ semantic-release-helm@^2.1.0:
     path "^0.12.7"
     semver "^7.3.4"
 
-semantic-release@^18.0.1:
+semantic-release@18.0.1:
   version "18.0.1"
-  resolved "https://registry.npmjs.org/semantic-release/-/semantic-release-18.0.1.tgz#df5ad44b9c2fd67fe3cdbc660b3d1f55298b9f34"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-18.0.1.tgz#df5ad44b9c2fd67fe3cdbc660b3d1f55298b9f34"
   integrity sha512-xTdKCaEnCzHr+Fqyhg/5I8P9pvY9z7WHa8TFCYIwcdPbuzAtQShOTzw3VNPsqBT+Yq1kFyBQFBKBYkGOlqWmfA==
   dependencies:
     "@semantic-release/commit-analyzer" "^9.0.2"
@@ -8239,10 +8228,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-swr@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/swr/-/swr-1.1.1.tgz#f13346cc830d7950183af57b341bfabb4cc90d43"
-  integrity sha512-ZpUHyU3N3snj2QGFeE2Fd3BXl1CVS6YQIQGb1ttPAkTmvwZqDyV3GRMNPsaeAYCBM74tfn4XbKx28FVQR0mS7Q==
+swr@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-1.3.0.tgz#c6531866a35b4db37b38b72c45a63171faf9f4e8"
+  integrity sha512-dkghQrOl2ORX9HYrMDtPa7LTVHJjCTeZoB1dqTbnnEDlSvN8JEKpYIYurDfvbQFUUS8Cg8PceFVZNkW0KNNYPw==
 
 tailwindcss@3.0.2:
   version "3.0.2"
@@ -9130,7 +9119,7 @@ yallist@^4.0.0:
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^1.10.0, yaml@^1.10.2:
+yaml@1.10.2, yaml@^1.10.0, yaml@^1.10.2:
   version "1.10.2"
   resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
