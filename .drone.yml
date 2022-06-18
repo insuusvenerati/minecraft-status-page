@@ -6,6 +6,9 @@ trigger:
   event:
     exclude:
       - promote
+  branch:
+    exclude:
+      - renovate/*
 
 steps:
   - name: Install
