@@ -2,5 +2,5 @@ apiVersion: v2
 name: minecraft-status-page
 description: A Helm chart for Kubernetes
 type: application
-version: 0.2.0
-appVersion: 0.3.0
+version: 0.2.3
+appVersion: 0.3.1-develop.3
